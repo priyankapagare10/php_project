@@ -1,0 +1,21 @@
+Options -MultiViews 
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	Options -Indexes
+	DirectoryIndex default.php   
+	
+	 
+	RewriteRule ^$  welcome/default.php      
+	ErrorDocument 404 https://www.laaibhari.com/error/default.php
+	ErrorDocument 401 https://www.laaibhari.com/error/default.php
+	ErrorDocument 402 https://www.laaibhari.com/error/default.php
+	ErrorDocument 403 https://www.laaibhari.com/error/default.php
+	ErrorDocument 500 https://www.laaibhari.com/error/default.php   
+	 
+	RewriteRule ^test/rw\.html$ test/rw.php [T=application/x-httpd-php]     
+	RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).php/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$   $1/$2/$3.php?id=$4&url=$5  [NC]   
+	RewriteRule ^jobs/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$  jobs/file1.php?keyword1=$1&keyword2=$2   [NC]                   
+	RewriteRule ^jobs/([a-zA-Z0-9_-]+)$    jobs/job-details.php?url=$1  [NC]
+	 
+</IfModule>
+

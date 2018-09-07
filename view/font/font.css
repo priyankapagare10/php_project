@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+        font-family: "Open Sans";
+        src: url('631866456-OpenSans-Regular.eot');
+        src: url('631866456-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('631866456-OpenSans-Regular.svg#Open Sans') format('svg'),
+        url('631866456-OpenSans-Regular.woff') format('woff'),
+        url('631866456-OpenSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }

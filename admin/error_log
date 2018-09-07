@@ -1,0 +1,7 @@
+[22-Dec-2016 03:53:15 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[22-Dec-2016 03:53:18 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[22-Dec-2016 03:53:31 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[22-Dec-2016 06:14:31 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[23-Dec-2016 10:58:03 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[08-Feb-2017 00:43:06 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2
+[09-Feb-2017 08:08:55 America/Los_Angeles] PHP Warning:  mysql_connect(): Unknown MySQL server host 'HST' (2) in /home/travalshop/public_html/meerindia.com/config/database.php on line 2

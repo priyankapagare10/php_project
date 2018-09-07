@@ -1,0 +1,212 @@
+@media all {
+*{ margin:0px; padding:0px; }
+body{ font-size:15px;font-family: 'open_sansregular'; color:#7f8182; font-size:13px;}
+ul li{ display:block; list-style: none;}
+.clear{ clear:both;}
+header{ width:100%;}
+footer{ width:100%;}
+#body{ width:100%;}
+#top{ width:100%; background:url(../images/top.jpg) left top;}
+#banner{ width:100%; padding:200px 0 120px; background:url(../images/banner.jpg) no-repeat center top; background-size:cover;}
+.contain{ width:1100px; margin:0px auto;}
+.logo{ float:left; padding-top:19px;}
+.navBox{ float:right; padding:0; text-transform:uppercase;}
+.bannerText{ color:#FFF; font-size:48px; font-weight:bold; font-family: 'roboto_slabregular'; text-shadow: 1px 1px 1px #000000;}
+.banSubText{ font-size:18px; color:#fff; width:80%;}
+#whiteBox{ width:100%; background:#fff;  padding:50px 0;}
+.greyBox{ width:100%; background:#fff;  padding:50px 0; background:#fbfbfb url(../images/shadow.jpg) repeat-x left top;}
+.mainBoxes{ float:left; width:23%; margin:0 1%;}
+.bodyLeft{ float:left; width:68%; margin-right:2%;}
+.bodyRight { float:right; width:30%;}
+.dataHead{ font-family: 'roboto_slabregular'; margin-top:0px; color:#404040; margin-bottom:5px;}
+.dataHeadGreen{ font-family: 'roboto_slabregular'; margin-top:0px; color:#404040; margin-bottom:25px;}
+.footeHead{ font-family: 'roboto_slabregular'; margin-top:0px; color:#373737; margin-bottom:20px; font-size:16px; text-transform:uppercase;}
+.subHead{ font-family: 'roboto_slabregular'; margin-top:0px; color:#ff0000; font-size:17px;
+margin-bottom:15px;}
+.subHeadGrin{ font-family: 'roboto_slabregular'; margin-top:0px; color:#fff; font-size:19px;
+margin-bottom:5px;}
+.imgBox{ padding:3px; border:1px solid #ccc;}
+.techBoxes{ float:left; width:32%; margin-right:2%;}
+.techBoxesLast{ float:left; width:32%; margin-right:0%;}
+.techImg{ margin-bottom:10px;}
+.readMore{ margin-top:10px;}
+.readMore a{font-size: 16px; color:#ff0000; text-decoration: none;font-family: 'roboto_slabregular';}
+.readMore a:hover{ color:#ff0000;}
+#greenBox{ padding:50px 0 10px; width:100%; background:url(../images/green.jpg) left top; color:#ff0000;}
+.grinLeft{ float:left; width:48%; margin-right:2%; margin-bottom:40px;}
+.grinRight{ float:left; width:48%; margin-left:2%; margin-bottom:40px;}
+.circle{ float:left; margin-right:20px; background:#000000 ; padding:20px; color:#ff0000 ; font-size:48px;font-family: 'roboto_slabregular'; height:100px; width:100px; text-align:center; vertical-align: middle !important; line-height:60px;
+-webkit-border-radius: 50% 50% 50%50%;
+border-radius: 50% 50% 50% 50%;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;}
+.circle:hover{ background:#fff ;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;}
+.circleText{ float:left; width:75%; color:#5e5e5e; line-height:normal;}
+.circleText p{ margin-bottom:2px;}
+.circleText p a{ font-size:15px; color:#004727;font-family: 'roboto_slabregular';}
+#footWhite{ width:100%; padding:40px 0 30px;}
+#footGrey{ width:100%; padding:15px 0; background:#000000 ;}
+.powerd{ float:left; margin:0px !important; color:#ffffff; font-size:12px;}
+.copy{ float:right; margin:0px !important;color:#ffffff; font-size:12px;}
+#footGrey em{ font-style:normal; color:#ff0000;}
+#footGrey a{color:#ffffff;}
+#footGrey a:hover{color:#ff0000; text-decoration:none;}
+.footLink{ float:left; width:21%; font-size:12px;}
+.footLinkLast{ float:left; width:37%;}
+.bottLink li{ margin-bottom:7px; text-transform:uppercase; font-size:12px;}
+.bottLink a{ color:#5e5e5e; background:url(../images/bullet.png) no-repeat left 5px; padding-left:15px;}
+.bottLink a:hover{ color:#ff0000; text-decoration:none; background:url(../images/bullet-ovr.png) no-repeat left 5px;}
+.social li{ float:left; margin-right:10px; margin-top:2px;
+-webkit-transition: 0.4s;
+-moz-transition: 0.4s;
+-ms-transition: 0.4s;
+-o-transition: 0.4s;
+transition: 0.4s;}
+.social li:hover{ opacity:0.5;
+-webkit-transition: 0.4s;
+-moz-transition: 0.4s;
+-ms-transition: 0.4s;
+-o-transition: 0.4s;
+transition: 0.4s;}
+#login-nav input { margin-bottom:3px; }
+.navbar-collapse{padding:0px !important;}
+.nav > li > a{padding:35px 24px;}
+.navbar-nav > li > a{color:#cecece !important;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background:#1a1a1a url(/images/nav.png) no-repeat center top !important; color:#fff !important;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{ background:#32c182; color:#fff !important;}
+.logBox{ padding:25px 25px 10px; width:300px; background:#32c182; border:#32c182 solid 1px;
+box-shadow:3px 3px 3px rgba(0, 0, 0, 0.176);}
+.form-control{border:0px none !important; border-radius:0 !important;}
+.remember{ float:left; color:#fff !important; margin-top:6px;}
+.logButt{ float:right;}
+.loginButt{ background:#00683a; color:#fff; padding:8px 20px; border:0px none;}
+.form-group {margin-bottom: 13px;}
+.newUser{ width:100%; background:#2e2e2e; padding:8px 20px; border:0px none;border-radius:0 !important; color:#cacaca; text-transform:uppercase;}
+.newUser:hover{ color:#fff;}
+.checkbox{ border-bottom:1px dotted #fff; padding-bottom:15px; margin-bottom:15px !important;}
+.navbar-right{ margin:0px !important}
+}
+
+@media screen and (max-width: 1024px) {
+.contain {width:97%;}
+#banner{padding: 90px 0 79px;}
+.bannerText{font-size: 41px;}
+.banSubText{font-size: 15px;}
+.circleText{width: 71%;}
+#greenBox{padding: 37px 0 5px;}
+.greyBox{ padding: 35px 0;}
+#whiteBox{padding: 30px 0;}
+#footWhite{padding: 30px 0 20px;}
+.logBox{padding: 20px 20px 5px;width: 280px;}
+.nav > li > a { padding: 33px 20px;}
+.logo{ padding-top:17px;}
+}
+	
+@media screen and (max-width: 920px) {
+.logo{ width:100%;}
+.navbar-header{ width:30% !important;}
+.nav > li > a { padding: 29px 17px;}
+.bannerText {font-size: 34px;}
+#banner { padding: 72px 0 67px;}
+.mainBoxes {width: 46%; margin-bottom:26px;}
+#whiteBox{ padding-bottom:10px;}
+.box > .icon > .info > p { margin: 10px 0;}
+.logBox{padding: 20px 20px 5px;width: 280px;}
+.form-group { margin-bottom: 9px;}
+.checkbox { margin-bottom: 11px !important; padding-bottom: 11px;}
+}
+
+@media screen and (max-width: 800px) {
+.nav > li > a { padding: 29px 14px;}
+#greenBox{ text-align:center;}
+.circle{ margin:0px auto !important; float:none;}
+.circleText{ width:100%;}
+.grinLeft { margin-bottom: 27px;}
+.grinRight {  margin-bottom: 27px;}
+.subHeadGrin{ margin-top:10px; margin-bottom:10px;}
+.powerd{ width:100%}
+.copy{ width:100%; padding-top:5px;}
+}
+
+@media screen and (max-width: 768px) {
+.navbar-header { width: 26% !important;}
+.nav > li > a {padding: 24px 14px;}
+.bannerText {font-size: 28px; }
+.banSubText{ font-size:14px; width:98%;}
+#banner {padding: 64px 0 71px;}
+.footLink{ width:33%;}
+.footLinkLast{ width:100%; padding-top:22px; border-top:1px dotted #d6d6d6; margin-top:5px;}
+}
+
+@media screen and (max-width: 767px) {
+.navbar-default{ background:none !important ;}
+.navbar-header { width: 100% !important;}
+.logo {width:70%; margin-bottom:15px;}
+.navBox{ width:100%;}
+.navbar-toggle{ margin-right:5px; margin-top:25px;}
+.dropdown-toggle{ width:100% !important; float:none !important; margin-right:0px !important;}
+.logBox{ width:100%; float:left; background:#32c182 !important;}
+.nav > li > a{ width:48%; padding:13px 1%;margin-right: 2%; float:left; border-bottom:1px dotted #000;}
+.navbar-nav {margin: 0;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background:none !important; color:#fff !important;}
+.bodyRight{ float:none; width:40%; margin-bottom:20px;}
+.bodyLeft{ margin-right:0; width:100%;}
+.techBoxes{ width:100%; margin-right:0px;}
+.techBoxesLast{ width:100%;}
+.techImg{ width:40%;}
+.contain{ width:96%;}
+.navbar-default .navbar-toggle{ border-color:#32c182 !important;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #32c182 !important; }
+.collapsed{ background-color: #2a2a2a !important;}
+}
+
+@media screen and (max-width: 640px) {
+.mainBoxes{ width:100%; margin-left:0 !important; margin-right:0 !important;}
+.mainBoxes br{ display:none;}
+.grinLeft{ width:100%; margin-right:0px !important;}
+.grinRight{ width:100%; margin-left:0px !important;}
+.bodyRight{ width:100%;}
+.techImg{ width:100%;}
+.footLink{ width:98%; margin-left:2%; margin-bottom:15px;}
+.footLinkLast{ width:98%; margin-left:2%; margin-bottom:15px;}
+.footeHead{ margin-bottom:10px;}
+#banner {padding: 21px 0 57px; }
+.nav > li > a{ padding:10px 1%;}
+}
+
+
+/*********Body box*********/
+
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px;  line-height: 88px; border-radius: 50%; background: #404040; vertical-align: middle; color:#fff;
+font-family: 'roboto_slabregular'; font-size:40px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;} 
+.box > .icon:hover > .image { background: #ff0000;-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;}
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info {}
+.box > .icon:hover > .info {  }
+.box > .icon > .info > h3.title {  font-size: 21px; color: #404040; font-family: 'roboto_slabregular'; text-transform:uppercase; }
+.box > .icon > .info > p {margin: 15px 0;}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > .icon:hover > .info > .more > a { color: #ff0000; }
+.box > .icon > .info > .more a {font-size: 16px; color: #ff0000;line-height: 12px;text-decoration: none;font-family: 'roboto_slabregular';  }
+.box > .icon:hover > .info > .more > a { color: #404040; padding: 6px 8px;}
+.box .space { height: 30px; }
+/*********Body box end*********/
+

@@ -1,0 +1,189 @@
+
+/************** Font generatore  ***************/
+
+	@font-face {
+        font-family: "Open Sans";
+        src: url('font/631866456-OpenSans-Regular.eot');
+        src: url('font/631866456-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/631866456-OpenSans-Regular.svg#Open Sans') format('svg'),
+        url('font/631866456-OpenSans-Regular.woff') format('woff'),
+        url('font/631866456-OpenSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+/************** Common css start form here ***************/	
+*{ margin:0px; padding:0px; letter-spacing:0.6px;}
+a:hover{ text-decoration:none;}	
+body{font-family: "Open Sans";}
+.clear{ clear:both;}
+ul li{ display:block; list-style:none}
+header{ width:100%; float:left}
+#body{ width:100%; float:left;padding:40px 0 0;}
+.bodyBg{background:url(images/body-img.jpg) repeat-x left bottom; float:left; width:100%;}
+footer{ width:100%; background:#2e2e2e; float:left; color:#cacaca; font-size:13px;}
+#copyRight{ width:100%; background:#2e2e2e; float:left; color:#cacaca;padding:20px 0; background:#282828;}
+.banner{ float:left; width:100%; background:#f3f3f3;}
+#myNavTop{ width:100%; float:left;}
+#myNavBott{ width:100%; float:left; background:#bf0045;}
+.wrapper{ width:1150px; margin:0px auto;}
+.banner{}
+.leftNav{ float:left; width:25%;}
+.sliderOut{ float:left; width:75%; position:relative;}
+.navbar{ margin-bottom:0px; min-height:auto !important}
+blockquote{ border:0px none;}
+.carousel-inner img{ width:100%;}
+.carousel-control.left{ background:none !important}
+.carousel-control.right{ background:none !important}
+.navbar-nav{ float:left; padding:10px 0; display:block; text-align:left; width:100%;}
+.navbar-default{ border:0 none; background:none !important;box-shadow:none }
+.navbar-collapse{ padding-left:0px; padding-right:0px; text-align:center;}
+.container-fluid{ padding-left:0px; padding-right:0px}
+.navbar-nav > li { float: left; display: inline-block;}
+.navbar-default .navbar-nav > li > a{ letter-spacing:0.4px; color:#fff; text-transform:uppercase; font-size:15px; padding-top:0; padding-bottom:0;}
+.navbar-default .navbar-nav > li > a:hover{ color:#fff !important;}
+.navbar-default .navbar-nav > li > a:focus{ color:#fff !important;}
+.follow{ width:auto !important; float:right; margin-left:40px; padding:6px 0}
+#mainLeft{ float:left; width:75%; margin-bottom:20px;}
+#mainRight{ float:right; width:25%; margin-bottom:20px; background:#CCC;}
+#mainRight li{padding-bottom:10px; cursor:pointer; padding-left:30px;}
+.leftCont{width:100%; display:none;}
+.mainQsn{ padding-left:20px;}
+#data1{ background:#F00; padding-bottom:30px; display:block; height:200px;}
+#data2{ background:#0F0; padding-bottom:30px; height:300px;}
+#data3{ background:#FF0; padding-bottom:30px; height:400px;}
+#data4{ background:#CCC; padding-bottom:30px; height:600px;}
+#data5{ background:#0FF; padding-bottom:30px; height:500px;}
+.outHide{ overflow:hidden;}
+.logo{ float:left; width:33.33%}
+.logo img{ height:104px; width:auto;}
+.logoCenter img{ width:100%}
+.logoCenter{ float:left; width:130px; margin:7px 0px 6px;}
+.carousel-control{ width:50px;}
+.logoRight{ float:right; text-align:right; width:auto; margin-top:29px; font-size:14px; color:#111;}
+.logoRight a{ color:#111; padding:0 5px; cursor:pointer;}
+.logoRight a:hover{ color:#bf0045; }
+.logoRight img{ height:97px; width:auto;}
+.testimonials{ float:left; width:100%; background:#bf0045; color:#fff; }
+.bodyLeft{ float:left; width:70%; padding-right:20px;  margin-bottom:30px;}
+.bodyRight{ float:left; width:30%;}
+.bodyRight img{ float:left; width:90%;}
+.bodyLeft h2{ margin-top:0px; margin-bottom:12px; letter-spacing:0.7px; font-size:25px;}
+.bodyLeft h3{ margin-top:25px; margin-bottom:20px; letter-spacing:0.7px; font-size:21px; color:#bf0045;}
+.carousel-caption{ padding-top:0px !important; bottom: 28px;}
+.carousel-caption-header{ margin-top:0px !important;}
+.fullDiv{ width:100% !important; min-height:400px;}
+.navUpper{ background:#f3f3f3;}
+.inputText{ border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; border:0px none;  padding:8px 12px ; }
+.citySelect{ width:287px; margin-right:7px; background:#fff url(../images/map.png) no-repeat 9px 9px; padding-left:27px;color:#999;}
+.catSearch{ width:460px; background:#fff; height:36px; padding:0px; position:relative; z-index:99;}
+.searchInput{ width:100% !important;height: 36px !important; padding: 5px 7px 5px 12px; border:0px none;color:#999;}
+.selectCategory{ float:left; width:197px; padding:5px 9px; border:0px none; border-right:1px solid #ddd; height:36px; background:none; color:#999}
+.glyphicon-search{ color:#999 !important; }
+.searchIcon{ background:none; border:0px none; padding:8px 3px 8px 11px; font-size:16px; color:#999}
+.posRel{ position:relative;}
+.selectFullCat{ position:absolute; top:46px; width:900px; background:#fff; z-index:99; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; border:1px solid #ddd; -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.4); -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.4); box-shadow: 0 0 8px 0 rgba(0,0,0,0.45); display:none;}
+.wtArrow{ position:absolute; top:-10px; height:10px; left:65px;}
+.wtArrow img{ float:left;}
+.locationSearch{ background:#f2f2f2; padding:13px 17px; float:left; width:100%; border-bottom:1px solid #ddd;}
+.cityList{ padding:17px 20px 10px; float:left; width:100%; overflow:auto; max-height:300px;}
+.cityList li{ float:left; width:25%; margin-bottom:7px; color:#777; font-size:14px;}
+.locationSearch .citySelect{ border:1px solid #ddd;}
+.locationInn{ float:left; position:relative; width:280px;}
+.locationInn .citySelect{ width:100% !important; margin-right:0px;}
+.searchCityList{ position:absolute; width:100%; top:39px; left:0; background:#fff; max-height:220px; overflow:auto;  border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; padding:7px;-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.3); -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.3); box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);}
+.searchCityList li{ font-size:13px; color:#999; padding:5px 13px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.searchCityList li:hover{ background:#bf0045; color:#fff;}
+.topCityList{ float:left; width:225px; position:relative; border-right:1px solid #ddd;}
+
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+.wrapper{ width:98%; }
+
+}
+
+@media screen and (max-width: 990px) {
+.footLeft{width:100%;border-bottom: 1px solid #4a4a4a;border-right:none !important; padding-bottom:20px; margin-bottom:23px;}
+.footRight{width:100%;}
+.touchPoint{ margin-left:0}
+.whiteBox{ width:39%}
+}
+
+@media screen and (max-width: 768px) {
+
+.navbar-header{ margin-right:0 !important}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{ margin-left:0 !important; margin-right:0 !important}
+.navbar-nav{ margin:0px !important; text-align:right; width:63%;}
+.navbar-default .navbar-nav > li > a{padding-bottom: 13px; padding-top: 13px; border-bottom:1px solid #e4e4e4}
+.navbar-toggle{ background:#fff}
+#mainLeft{ float:left; width:100%;}
+#mainRight{ float:left; width:100%; margin-bottom:4px;}
+#mainRight li{ float:left; width:20%; padding-left:20px; padding-top:9px; padding-bottom:7px; }
+
+
+
+
+ #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+	
+	
+	
+}
+@media screen and (max-width: 767px) {
+.navbar-nav{width:100%;}
+}
+
+@media screen and (max-width: 640px) {
+#mainRight li{ width:50%; border-bottom:1px #666 solid;}
+	
+}
+
+@media screen and (max-width: 480px) { 
+}
+
+@media screen and (max-width: 479px) {
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+}

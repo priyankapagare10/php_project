@@ -1,0 +1,16 @@
+.ddsmoothmenu{/*background:#414141;*/font:bold 12px Verdana;height:30px;width:100%;display:none}
+.ddsmoothmenu ul{list-style-type:none;margin:0;padding:0;z-index:100}
+.ddsmoothmenu ul li{display:inline;float:left;position:relative}
+.ddsmoothmenu ul li a{background:#414141;border-right:1px solid #778;color:#2d2b2b;display:block;height:14px;padding:8px 10px;text-decoration:none}
+* html .ddsmoothmenu ul li a{display:inline-block}
+.ddsmoothmenu ul li a:link,.ddsmoothmenu ul li a:visited{color:#FFF}
+.ddsmoothmenu ul li ul{display:none;left:0;position:absolute;visibility:hidden}
+.ddsmoothmenu ul li ul li{display:list-item;float:none}
+.ddsmoothmenu ul li ul li ul{top:0}
+.ddsmoothmenu ul li ul li a{border-bottom:1px solid gray;border-top-width:0;font:normal 13px Verdana;margin:0;padding:5px;width:200px}
+* html .ddsmoothmenu{height:1%}
+.downarrowclass{position:absolute;right:7px;top:12px}
+.rightarrowclass{position:absolute;right:5px;top:6px}
+.ddshadow{background:silver;height:0;left:0;position:absolute;top:0;width:0}
+.toplevelshadow{opacity:0.8}
+.ddsmoothmenu ul li a.selected,.ddsmoothmenu ul li a:hover{background:#000;color:#FFF}
